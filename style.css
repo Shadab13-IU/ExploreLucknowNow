@@ -1,0 +1,183 @@
+/* Basic styling for the entire page */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+#home {
+    font-size: 70px;
+    color: white;
+}
+
+.home{
+    background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(0, 0, 0, 0.7)), url('./lucknow.webp');
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    padding: 200px;
+}
+
+#para {
+      /* padding-left: 300px; */
+      font-size: 25px;
+      color: white;
+        font-weight: bold;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+}
+
+.flex{
+    width: 400px;
+    display: flex;
+    gap: 20px;
+} 
+.flexr{
+    display: flex;
+    gap: 20px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fa-location-dot{
+    size: 30px;
+    
+}
+
+
+#attractions {
+    background-color: white;
+
+}
+
+#food {
+    background-color: white;
+}
+
+#hotel{
+    background-color: white;
+}
+
+#contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+iframe{
+    width: 220px;
+    height: 130px;
+}
+
+.place{
+   
+    padding-left: 200px;
+    font-size: 20px;
+}
+.mig{
+    margin-left: 150px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    
+}
+.migt{
+    margin-left: 100px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    
+}
+.migt:hover{
+   
+    opacity: 0.5;
+    
+}
+
+.mig:hover{
+    
+   opacity: 0.5;
+    
+}
+#Atr{
+    float: left;
+    width: 50%;
+    
+}
+#ftr{
+    float: right;
+    width: 50%;
+    
+}
+#htr{
+    
+    
+}
+
+#htr{
+    padding-left: 450px;
+    
+}
+
+.test{
+    align-items: center;
+}
+
+.para{
+    margin-left: 170px;
+}
+
+.paral{
+    margin-left: 150px;
+}
+
+.top{
+    text-align: center;
+    color: white;
+    width: 400px;
+    padding-left: 600px;
+    padding-top: 41px;
+}
+
+.dv{
+    background-color: black;
+    height: 100px;
+    
+}
